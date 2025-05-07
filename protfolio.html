@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header, section, footer {
+            padding: 20px;
+            margin: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        header {
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+
+        ul {
+            list-style: square;
+            padding-left: 20px;
+        }
+
+        a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        img.profile {
+            display: block;
+            margin: 0 auto 20px auto;
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+
+        video {
+            display: block;
+            margin: 10px auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        td.label {
+            font-weight: bold;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="profile.png" alt="Ganesh's Photo" class="profile">
+
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Ganesh Gondu. I am a passionate software engineer with a strong interest in web development and machine learning. I enjoy solving complex problems and building innovative solutions.</p>
+    </header>
+
+   
+    <section>
+        <h2>Personal Details</h2>
+        <table>
+            <tr>
+                <td class="label">Full Name</td>
+                <td>Ganesh Gondu</td>
+            </tr>
+            <tr>
+                <td class="label">Date of Birth</td>
+                <td>June 25, 2005</td>
+            </tr>
+            <tr>
+                <td class="label">Email</td>
+                <td><a href="mailto:ganesh@example.com">ganesh@example.com</a></td>
+            </tr>
+            <tr>
+                <td class="label">Phone</td>
+                <td>+91-9876543210</td>
+            </tr>
+            <tr>
+                <td class="label">Address</td>
+                <td>Srikakulam, Andhra Pradesh, India</td>
+            </tr>
+            <tr>
+                <td class="label">Nationality</td>
+                <td>Indian</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Career Objective</h2>
+        <p>To secure a challenging position as a software engineer where I can effectively contribute my skills in web development, programming, and problem-solving, while continuously learning and growing within a professional environment.</p>
+    </section>
+
+    
+    <section>
+        <h2>About Me</h2>
+        <p>I am a dedicated software engineer with expertise in web development using HTML, CSS, JavaScript, and backend technologies. I have a keen interest in building interactive, user-friendly applications. I also have experience in working with APIs and creating responsive web applications.</p>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming languages: Java, Python, C, JavaScript</li>
+            <li>Frameworks: React</li>
+            <li>Database Management: MySQL</li>
+            <li>Version Control: Git, GitHub</li>
+        </ul>
+    </section>
+
+    
+    <section>
+        <h2>My Projects</h2>
+
+        <h3>Project 1: Weather App</h3>
+        <img src="weather.png" alt="Weather App Screenshot" width="300" height="150">
+        <p>This project is a weather app that provides real-time weather updates using the OpenWeatherMap API. Users can enter a location to receive current weather information and forecasts.</p>
+        <dl>Technologies: HTML, CSS, JavaScript, OpenWeatherMap API</dl>
+        <ul>
+            <li>Developed a weather forecasting web application to display current and 5-day weather forecasts, including wind speed, humidity, and temperature data.</li>
+            <li>Integrated the OpenWeatherMap API to fetch real-time weather information and display it dynamically.</li>
+            <li>Designed a user-friendly interface with responsive design using HTML and CSS for optimal viewing across devices.</li>
+            <li>Implemented JavaScript for fetching, parsing, and displaying weather data, enhancing user experience with real-time updates.</li>
+            <li>Enabled location-based weather predictions using geolocation functionality.</li>
+        </ul>
+        <a href="https://ganeshgondu.github.io/weather/" target="_blank">View on GitHub</a>
+    </section>
+
+    <section>
+        <h2>My Favorite Media</h2>
+        <h3>My Favorite Song</h3>
+        <audio controls>
+            <source src="your-audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    
+        <h3>My Self-introduction Video</h3>
+        <iframe width="320" height="240" src="https://www.youtube.com/embed/2a34XyiZO14" title="Self-introduction Video" frameborder="0" allowfullscreen></iframe>
+    
+    </section>
+    
+
+    <footer>
+        <p>Thank you for visiting my portfolio! Feel free to reach out for collaborations or job opportunities.</p>
+        <p>&copy; 2025 Ganesh | SRKR Engineering College</p>
+    </footer>
+
+</body>
+</html>
