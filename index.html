@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ganesh Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <div class="logo">
+      <img src="ganesh.jpg" alt="Ganesh Photo" class="nav-profile-img" />
+      Ganesh
+    </div>
+    <ul class="nav-links">
+      <li><a href="#home" class="nav-link active">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#projects" class="nav-link">Projects</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+    <button id="darkModeToggle">🌙 Dark Mode</button>
+  </nav>
+
+  <section id="home" class="section">
+    <img src="profile.jpg" alt="Ganesh Photo" class="profile-img"/>
+    <h1 class="section-heading">Welcome to My Portfolio</h1>
+    <p>Hi, I'm Ganesh Gondu. A passionate software engineer with strong interest in web development and machine learning.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2 class="section-heading">About Me</h2>
+    <p class="about-text">
+      My name is Ganesh Gondu, and I am currently pursuing my B.Tech 2nd year in Computer Science and Engineering at SRKR Engineering College. I completed my higher education at Sri Chaitanya and my schooling at SVS EM School.
+    </p>
+    <p class="about-text">
+      I have experience with programming languages such as Python and Java, along with web technologies including HTML, CSS, JavaScript, and VueJs. One of my notable projects is the Weather Project, which helped me enhance my practical coding skills and problem-solving abilities.
+    </p>
+    <table class="info-table">
+      <tr><td>Full Name</td><td>Ganesh Gondu</td></tr>
+      <tr><td>Date of Birth</td><td>June 25, 2005</td></tr>
+      <tr><td>Email</td><td><a href="mailto:ganeshgondu739@gmail.com">ganeshgondu739@gmail.com</a></td></tr>
+      <tr><td>Phone</td><td>+91-8008533950</td></tr>
+      <tr><td>Address</td><td>Srikakulam, Andhra Pradesh, India</td></tr>
+      <tr><td>Nationality</td><td>Indian</td></tr>
+    </table>
+  </section>
+
+  <section id="projects" class="section">
+    <h2 class="section-heading">Projects</h2>
+    
+    <div class="card">
+      <h3>Weather App</h3>
+      <img src="weather.png" alt="Weather App Screenshot" class="project-img" />
+      <p>Technologies Used: HTML, CSS, JavaScript, OpenWeatherMap API</p>
+      <ul>
+        <li>Displays current and 5-day weather forecasts using real-time data.</li>
+        <li>Includes temperature, humidity, wind, and geolocation search.</li>
+        <li>Clean UI and dynamic elements using JavaScript.</li>
+      </ul>
+      <a href="https://ganeshgondu.github.io/weather/" target="_blank">View Project</a>
+    </div>
+
+    <div class="card calculator-project">
+      <h3>Basic Calculator</h3>
+      <img src="calculator.png" alt="Basic Calculator Screenshot" class="project-img" />
+      <p>Technologies Used: HTML, CSS, JavaScript</p>
+      <ul>
+        <li>Responsive calculator with grid layout.</li>
+        <li>Performs basic arithmetic operations.</li>
+        <li>Mobile friendly and easy to use.</li>
+      </ul>
+      <a href="https://ganeshgondu.github.io/calculator/" target="_blank">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <h2 class="section-heading">Contact Me</h2>
+    <form class="contact-form" id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <input type="tel" placeholder="Your Phone" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Ganesh | SRKR Engineering College</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
